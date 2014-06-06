@@ -7,9 +7,9 @@ from random import randint
 from pygame.locals import *
 pygame.init()
 #mainclock= pygame.time.Clock()
-width = 960  # 1920 = full | 960 = half
-height = 540 # 1080 = full | 540 = half
-tilesize = 10 # 10
+width = 1500  # 1920 = full 960
+height = 900 # 1080 = full 540
+tilesize = 20 # 10
 tileborder = 1 # 1
 window=pygame.display.set_mode((width,height,),FULLSCREEN,32)
 #window=pygame.display.set_mode((width,height,),0,32)
